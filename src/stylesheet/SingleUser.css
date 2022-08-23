@@ -1,0 +1,15 @@
+.icon {
+    font-size: 22px;
+    color: #6D64FF;
+    cursor: pointer;
+}
+
+.user {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-context {
+    color: #1D1C2F;
+}

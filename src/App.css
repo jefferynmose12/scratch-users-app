@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+  max-width: 100%;
+  background-color: #1D1C2F;
+  min-height: 100vh;
+  padding: 30px 40px;
+}
+
+img {
+  width: 100px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+  margin-top: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: rgb(117, 201, 250);
+  font-size: 16px;
+}
+
+td {
+  background-color: rgb(205, 235, 253);
+  font-size: 14px;
+}
+
+.form-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.form-field {
+  background-color: grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  gap: 20px;
+  padding: 40px 40px;
+}
+
+.select {
+  display: flex;
+  gap: 20px;
+}
+
+.select-field {
+  width: 50%;
+}
+
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-cover {
+  background-color: transparent;
+  border: none;
+}
+
+.btn-field {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.btn-add {
+  width: 160px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: aqua;
+  border: none;
+}
+
+.btn-add:hover {
+  color: #fff;
+  background-color: #7f7d9e;
+}
+
+.input-space {
+  font-size: 12px;
+  width: 150px;
+  height: 28px;
+}
+
+.err {
+  color: #FF595A;
+  font-size: 13px;
+  
+}

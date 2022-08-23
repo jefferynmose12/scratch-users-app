@@ -1,0 +1,30 @@
+.col-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label {
+    font-size: 18px;
+    color: white;
+}
+
+input {
+    height: 35px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: aqua;
+    outline: none;
+    font-size: 14px;
+    border: none;
+}
+
+select {
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+    outline: none;
+    font-size: 14px;
+    border: none;
+}
